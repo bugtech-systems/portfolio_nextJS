@@ -36,7 +36,7 @@ const Footer = () => {
     <div className=" flex select-none text-sm  py-16 mt-16 flex-col h-max items-center mx-auto justify-center">
       <div className="flex justify-center space-x-4 md:space-x-6 dark:text-white/70 text-gray-500 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-2">
         <Link
-          href="https://www.linkedin.com/in/pranjalshikhar"
+          href="https://steven.bugtech.online"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -45,7 +45,7 @@ const Footer = () => {
           <Image src={LinkedIn} alt="linkedin" width="30" />
         </Link>
         <Link
-          href="https://github.com/pranjalshikhar?tab=repositories"
+          href="https://steven.bugtech.online"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -54,7 +54,7 @@ const Footer = () => {
           <Image src={GitHub} alt="github" width="30" />
         </Link>
         <Link
-          href="https://www.behance.net/pranjalshikhar"
+          href="https://steven.bugtech.online"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -63,7 +63,7 @@ const Footer = () => {
           <Image src={Behance} alt="behnace" width="30" />
         </Link>
         <a
-          href="https://instagram.com/pranjal.fig"
+          href="https://steven.bugtech.online"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -72,7 +72,7 @@ const Footer = () => {
           <Image src={Instagram} alt="instagram" width="30" />
         </a>
         <Link
-          href="mailto:shikhar.pranjal3@gmail.com"
+          href="mailto:marksteven.alba@gmail.com"
           target="blank"
           rel="noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
@@ -83,7 +83,7 @@ const Footer = () => {
         </Link>
       </div>
       <a
-        href="https://github.com/pranjalshikhar/portfolio-v3"
+        href="https://steven.bugtech.online"
         target="blank"
         rel="noreferrer"
         className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 font-syne"
@@ -98,7 +98,7 @@ const Footer = () => {
               isHovering && "scale-150 blur-[6px]"
             } group font-bold animate-text duration-700 transition-all linear  group-hover:bg-white lg:text-gray-700 lg:dark:text-white/40 lg:group-hover:text-transparent bg-gradient-to-r mb-2 from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-sm sm:text-base md:text-lg`}
           >
-            pranjal shikhar sinha
+            Mark Steven Alba
           </p>
           {isHovering && (
             <p

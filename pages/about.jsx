@@ -29,7 +29,7 @@ export default function About() {
   return (
     <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
-        <title>about ✦ pranjal</title>
+        <title>About Steven Alba</title>
         <link rel="icon" href="/Avatar-white.svg" />
       </Head>
       <main className="  max-w-screen ">
@@ -46,12 +46,12 @@ export default function About() {
                 height={800}
                 width={800}
                 className="select-none h-40 w-40"
-                alt="pranjal shikhar"
+                alt="Steven Alba"
                 priority
               />
             </div>
             <p className="mt-8 max-w-xl text-center md:w-[70%] mx-auto text-sm md:text-base lg:text-xl mb-2 px-2">
-              Little about me. Also, It&apos;s not that hard to find me.
+              I&apos;m a creative software developer based in Tacloban City, Philippines, with a passion for creating innovative tools and systems. I have a background in accounting and a solid foundation in Full Stack Development, including expertise in HTML, CSS, JavaScript, React, Node.js, AWS, Microservices, RestAPI, and Databases.
             </p>
             <div className="select-none flex justify-center space-x-4 items-center mt-2 text-gray-400">
               <svg
@@ -122,40 +122,40 @@ export default function About() {
               <span className="text-red-700 font-bold">GMail</span>{" "}
               <a
                 onClick={() =>
-                  navigator.clipboard.writeText("shikhar.pranjal3@gmail.com")
+                  navigator.clipboard.writeText("marksteven.alba@gmail.com")
                 }
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
-                href="mailto:shikhar.pranjal3@gmail.com"
+                href="mailto:marksteven.alba@gmail.com"
               >
                 {" "}
-                shikhar.pranjal3@gmail.com
+                marksteven.alba@gmail.com
               </a>{" "}
               or <span className="text-blue-700 font-bold">LinkedIn</span>{" "}
               <a
-                href="http://linkedin.com/in/pranjalshikhar"
+                href="https://steven.bugtech.online"
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 rel="noopener noreferrer"
                 target="blank"
               >
                 {" "}
-                Pranjal Shikhar Sinha{" "}
+                Mark Steven Alba{" "}
               </a>{" "}
               or you can DM me on{" "}
               <span className="text-orange-500 font-bold">Instagram</span>{" "}
               <a
-                href="https://instagram.com/pranjal.fig"
+                href="https://steven.bugtech.online"
                 target="blank"
                 rel="noopener noreferrer"
                 className=" font-semibold underline underline-offset-4 decoration-2 decoration-purple-400 dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
               >
                 {" "}
-                @pranjal.fig{" "}
+                @Steven.dev{" "}
               </a>{" "}
             </p>
           </div>
           <div className="flex mx-auto justify-center mt-16 select-none">
             <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">
-              dattebayo
+              Steven
             </span>
             {currentTheme === "dark" ? (
               <Image src={love_white} alt="love" width="30" className="-mt-4" />

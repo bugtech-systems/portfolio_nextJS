@@ -80,9 +80,13 @@ const Header = () => {
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link href={"/"} className="">
             {currentTheme === "dark" ? (
-              <Image src={pranjal_header_white} alt="header" width="100" />
+              <p className="" style={{ color: 'white'}}>
+              Steven Alba
+              </p>
             ) : (
-              <Image src={pranjal_header_black} alt="header" width="100" />
+              <p className="" style={{ color: 'black'}}>
+              Steven Alba
+              </p>
             )}
           </Link>
         </div>

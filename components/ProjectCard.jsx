@@ -10,81 +10,89 @@ import redeye from "@/public/work/red-eye.jpg";
 import evo from "@/public/work/evo.jpg";
 import notion from "@/public/work/notion.jpg";
 import nike from "@/public/work/nike.jpg";
+import mwell from "@/public/work/mwell.png";
+import file_manager from "@/public/work/file_manager.png";
+import aja_pos from "@/public/work/ajapos.png";
+import scanner from "@/public/work/Scanner.png";
+import vote from "@/public/work/doovote.png";
+import netflix from "@/public/work/netflix.png";
+import portfolios from "@/public/work/portfolioRJS.png";
+import realmOF from "@/public/work/realmOF.png";
 
 const ProjectCard = () => {
   const data = [
     {
       id: 1,
-      image: aizen,
-      title: "Aizen",
-      description: "Create beautiful images and gifs of your source code",
-      link: "https://aizen.netlify.app/",
+      image: mwell,
+      title: "Mwell",
+      description: "",
+      link: "https://www.mwell.com.ph/",
       target: "_self",
     },
     {
       id: 2,
-      image: kamui,
-      title: "Kamui",
-      description: "Kanban board for planner with superpowers",
-      link: "https://kamui-kanban.netlify.app/",
+      image: aja_pos,
+      title: "Inventory/POS",
+      description: "Inventory System",
+      link: "https://pos.bugtech.online/",
       target: "_self",
     },
     {
       id: 3,
-      image: pokedex,
-      title: "Pokedex",
-      description: "Gotta Catch'em All. Explore your Pokemon",
-      link: "https://pokedex-polly.netlify.app/",
+      image: scanner,
+      title: "Face Detector",
+      description: "Application that store data individually",
+      link: "https://cfc.bugtech.online/",
       target: "_self",
     },
     {
       id: 4,
-      image: evo,
-      title: "Evo Gym",
-      description: "Gym Landing Page",
-      link: "https://evogymm.netlify.app/",
+      image: vote,
+      title: "Doovote",
+      description: "Beauty Pageant Voting Application",
+      link: "https://www.doovote.com/",
       target: "_blank",
     },
     {
       id: 5,
-      image: nike,
-      title: "Nike Store",
-      description: "Nike Store Landing Page",
-      link: "https://nikestore-polly.netlify.app/",
+      image: netflix,
+      title: "Netflix",
+      description: "Netflix Clone Application",
+      link: "https://steven.bugtech.online/netflix/",
       target: "_blank",
     },
     {
       id: 6,
-      image: notion,
-      title: "Potion",
-      description: "Connected workspace where better, faster work happens.",
-      link: "https://potion-write.vercel.app/",
+      image: portfolios,
+      title: "Portfolio ReactJS",
+      description: "Portfolio Web Application made using ReactJS",
+      link: "https://steven.bugtech.online/profile",
       target: "_blank",
     },
     {
       id: 7,
-      image: portfolio,
-      title: "Portfolio",
-      description: "Portfolio made using Next.js and Tailwind CSS",
-      link: "",
+      image: file_manager,
+      title: "File Manager",
+      description: "Securely backup your files and Access it from any devices.",
+      link: "https://files.bugtech.online/",
       target: "",
     },
     {
       id: 8,
-      image: cryptohunter,
-      title: "Crypto Hunter",
-      description: "Get the Trending Crypto list with its Price",
-      link: "https://crytocurrencyhunter.netlify.app/",
+      image: realmOF,
+      title: "Offline First App",
+      description: "Offline First React native application that offer uninterrupted functioning without internet connection access",
+      link: "https://steven.bugtech.online/profile",
       target: "_self",
     },
-    {
+    /* {
       id: 9,
       image: redeye,
       title: "Red Eye",
       description: "Question based website to know your movie genre",
       link: "https://red-eye.netlify.app/",
       target: "_self",
-    },
+    }, */
   ];
 
   return (

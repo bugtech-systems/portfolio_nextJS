@@ -8,14 +8,14 @@ export default function Document() {
       lang="en"
     >
       <Head>
-        {/* <title>pranjal ✦ developer, designer</title> */}
-        <meta name="title" content="pranjal ✦ developer, designer" />
+        {/* <title>Steven Portfolio</title> */}
+        <meta name="title" content="Steven Portfolio" />
         <meta name="description" content="Developer // Designer // Weeb" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://pranjalshikhar.vercel.app/" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta property="og:title" content="Steven Portfolio" />
         <meta
           property="og:description"
           content="Developer // Designer // Weeb"
@@ -33,7 +33,7 @@ export default function Document() {
         />
         <meta
           property="twitter:title"
-          content="pranjal ✦ developer, designer"
+          content="Steven Portfolio"
         />
         <meta
           property="twitter:description"
@@ -45,8 +45,8 @@ export default function Document() {
         />
 
         {/* whatsapp */}
-        <meta property="og:site_name" content="pranjal ✦ developer, designer" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta property="og:site_name" content="Steven Portfolio" />
+        <meta property="og:title" content="Steven Portfolio" />
         <meta
           property="og:description"
           content="Developer // Designer // Weeb"
@@ -64,7 +64,7 @@ export default function Document() {
           rel="search"
           href="/opensearch.xml"
           type="application/opensearchdescription+xml"
-          title="pranjal ✦ developer, designer"
+          title="Steven Portfolio"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

@@ -12,7 +12,7 @@ const Experience = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   const today = new Date();
-  const startDate = new Date(2022, 6);
+  const startDate = new Date(2018, 6);
   let diffYears = today.getFullYear() - startDate.getFullYear();
   let diffMonths = today.getMonth() - startDate.getMonth();
   if (
