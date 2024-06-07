@@ -111,28 +111,33 @@ export default function About() {
               </span>{" "}
             </p>
 
-            <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 ">
-              Contact
-            </p>
+
 
             <p className="">
               While I may not be a widely recognized figure, i am readily
-              available for connection on my social media platforms. <br />
-              You can contact me on the{" "}
-              <span className="text-red-700 font-bold">GMail</span>{" "}
+              available for connection on my social media accounts below.{" "}
+              <br />
+              <br />
+              <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 ">
+                Contact
+              </p>
+              <span className="text-red-700 font-bold">• GMail : </span>{" "}
+
               <a
                 onClick={() =>
                   navigator.clipboard.writeText("marksteven.alba@gmail.com")
                 }
+
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
                 href="mailto:marksteven.alba@gmail.com"
               >
                 {" "}
                 marksteven.alba@gmail.com
               </a>{" "}
-              or <span className="text-blue-700 font-bold">LinkedIn</span>{" "}
+              <br />
+              <span className="text-blue-700 font-bold">• LinkedIn : </span>{" "}
               <a
-                href="https://steven.bugtech.online"
+                href="https://www.linkedin.com/in/mark-steven-alba-9b55a9274/"
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 rel="noopener noreferrer"
                 target="blank"
@@ -140,8 +145,19 @@ export default function About() {
                 {" "}
                 Mark Steven Alba{" "}
               </a>{" "}
-              or you can DM me on{" "}
-              <span className="text-orange-500 font-bold">Instagram</span>{" "}
+              <br />
+              <span className="text-orange-500 font-bold">• Instagram : </span>{" "}
+              <a
+                href="https://steven.bugtech.online"
+                target="blank"
+                rel="noopener noreferrer"
+                className=" font-semibold underline underline-offset-4 decoration-2 decoration-purple-400 dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
+              >
+                {" "}
+                @Steven.dev{" "}
+              </a>{" "}
+
+              <span className="text-orange-500 font-bold">• CV : </span>{" "}
               <a
                 href="https://steven.bugtech.online"
                 target="blank"
